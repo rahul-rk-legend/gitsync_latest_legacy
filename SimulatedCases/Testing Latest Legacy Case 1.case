@@ -1,0 +1,64 @@
+{
+    "cases": [
+        {
+            "creatorUserId": null,
+            "events": [
+                {
+                    "_fields": {
+                        "baseEventIds": [],
+                        "parentEventId": 0,
+                        "deviceEventClassId": "Testing Latest Legacy Case 1",
+                        "startTime": "1764836245149",
+                        "endTime": "1764836245149",
+                        "deviceProduct": "Testing Latest Legacy Case 1"
+                    },
+                    "_rawDataFields": {
+                        "testing Latest Legacy Case 1": "Testing Latest Legacy Case 1",
+                        "deviceEventClassId": "Testing Latest Legacy Case 1",
+                        "deviceProduct": "Testing Latest Legacy Case 1",
+                        "name": "Testing Latest Legacy Case 1"
+                    },
+                    "environment": null,
+                    "sourceSystemName": null,
+                    "extensions": []
+                }
+            ],
+            "environment": null,
+            "sourceSystemName": "Testing Latest Legacy Case 1",
+            "ticketId": null,
+            "description": null,
+            "displayId": null,
+            "reason": null,
+            "name": "Testing Latest Legacy Case 1",
+            "deviceVendor": "Testing Latest Legacy Case 1",
+            "deviceProduct": "Testing Latest Legacy Case 1",
+            "startTime": 1764836245149,
+            "endTime": 1764836245149,
+            "type": 0,
+            "priority": -1,
+            "ruleGenerator": "Testing Latest Legacy Case 1",
+            "sourceGroupingIdentifier": null,
+            "playbookTriggerKeywords": [],
+            "extensions": [
+                {
+                    "key": "Testing Latest Legacy Case 1",
+                    "value": "Testing Latest Legacy Case 1"
+                }
+            ],
+            "attachments": null,
+            "isTrimmed": false,
+            "dataType": 1,
+            "sourceType": 1,
+            "sourceSystemUrl": null,
+            "sourceRuleIdentifier": null,
+            "siemAlertId": null,
+            "updatedFields": [],
+            "alertUpdateSupported": false,
+            "alertMetadata": {},
+            "dataAccessScope": null
+        }
+    ],
+    "type": 0,
+    "connectorIdentifier": null,
+    "debugOutput": null
+}
