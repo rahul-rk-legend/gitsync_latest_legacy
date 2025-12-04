@@ -1,7 +1,9 @@
 {
     "system_version": "6.1.6.150",
     "readme_addons": {
-        "Integration": {},
+        "Integration": {
+            "ServiceNow": "adding a readme add on"
+        },
         "Mappings": {},
         "Visual Family": {
             "Family Testing Latest Legacy 3": "adding a readme add on"
