@@ -1,0 +1,43 @@
+[
+    {
+        "type": 0,
+        "name": "Testing Latest Legacy 1",
+        "content": "Testing Latest Legacy 1",
+        "creatorUserName": "904e3402-4dc4-4f40-abeb-1ad7027e31f8",
+        "forMigration": false,
+        "environments": [
+            "I",
+            "Default Environment"
+        ],
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1764758434547,
+        "modificationTimeUnixTimeInMs": 1764758434547
+    },
+    {
+        "type": 0,
+        "name": "Testing Latest Legacy 2",
+        "content": "Testing Latest Legacy 2",
+        "creatorUserName": "904e3402-4dc4-4f40-abeb-1ad7027e31f8",
+        "forMigration": false,
+        "environments": [
+            "G",
+            "H"
+        ],
+        "id": 2,
+        "creationTimeUnixTimeInMs": 1764758442622,
+        "modificationTimeUnixTimeInMs": 1764758442622
+    },
+    {
+        "type": 0,
+        "name": "Testing Latest Legacy 3",
+        "content": "Testing Latest Legacy 3",
+        "creatorUserName": "904e3402-4dc4-4f40-abeb-1ad7027e31f8",
+        "forMigration": false,
+        "environments": [
+            "*"
+        ],
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1764758458104,
+        "modificationTimeUnixTimeInMs": 1764758458104
+    }
+]
