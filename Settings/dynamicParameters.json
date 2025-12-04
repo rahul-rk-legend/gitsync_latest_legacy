@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Testing Latest Legacy 1",
+        "type": 1,
+        "defaultValue": "Testing Latest Legacy 1",
+        "optionalValues": [
+            "Testing Latest Legacy 1"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Testing Latest Legacy 2",
+        "type": 0,
+        "defaultValue": "Testing Latest Legacy 1",
+        "optionalValues": null
+    }
+]
