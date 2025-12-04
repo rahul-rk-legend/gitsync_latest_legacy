@@ -1,0 +1,41 @@
+[
+    {
+        "value": "IPS_Product",
+        "name": "Testing Latest Legacy 1",
+        "propertyName": "",
+        "priority": 1,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 1,
+        "compareType": 2,
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1764758067543,
+        "modificationTimeUnixTimeInMs": 1764758067543
+    },
+    {
+        "value": "Testing",
+        "name": "Testing Latest Legacy 2",
+        "propertyName": "",
+        "priority": 3,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 2,
+        "compareType": 2,
+        "id": 5,
+        "creationTimeUnixTimeInMs": 1764758080693,
+        "modificationTimeUnixTimeInMs": 1764758080693
+    },
+    {
+        "value": "Windows:OutOfWorkingHours",
+        "name": "Testing Latest Legacy 3",
+        "propertyName": "",
+        "priority": 5,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 0,
+        "compareType": 2,
+        "id": 7,
+        "creationTimeUnixTimeInMs": 1764758091641,
+        "modificationTimeUnixTimeInMs": 1764758091641
+    }
+]
