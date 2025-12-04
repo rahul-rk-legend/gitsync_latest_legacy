@@ -4,7 +4,9 @@
         "Integration": {
             "ServiceNow": "adding a readme add on"
         },
-        "Mappings": {},
+        "Mappings": {
+            "Gmail": "adding a readme add on"
+        },
         "Visual Family": {
             "Family Testing Latest Legacy 3": "adding a readme add on"
         },
