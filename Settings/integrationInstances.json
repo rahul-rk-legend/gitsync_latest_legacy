@@ -1,0 +1,416 @@
+[
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "MicrosoftGraphMailDelegated",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "propertyName": "Microsoft Entra ID Endpoint",
+                    "value": "https://login.microsoftonline.com",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "id": 14,
+                    "propertyDisplayName": "Microsoft Entra ID Endpoint",
+                    "propertyDescription": "The Microsoft Entra ID endpoint to connect to (formerly known as Azure AD). The value can be different for different tenant types.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Microsoft Graph Endpoint",
+                    "value": "https://graph.microsoft.com",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "id": 15,
+                    "propertyDisplayName": "Microsoft Graph Endpoint",
+                    "propertyDescription": "The Microsoft Graph Endpoint to connect to. The value can be different for different tenant types.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Client ID",
+                    "value": "f994818c-540d-4813-8732-dfd434cdb6f1",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "id": 16,
+                    "propertyDisplayName": "Client ID",
+                    "propertyDescription": "The client (application) ID of the Microsoft Entra application to use in the integration.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Client Secret Value",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "id": 17,
+                    "propertyDisplayName": "Client Secret Value",
+                    "propertyDescription": "The client secret value of the Microsoft Entra app to use in the integration.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Microsoft Entra ID Directory ID",
+                    "value": "d48f52ca-5b1a-4708-8ed0-ebb98a26a46a",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "id": 18,
+                    "propertyDisplayName": "Microsoft Entra ID Directory ID",
+                    "propertyDescription": "The Microsoft Entra ID (tenant ID) value.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "User Mailbox",
+                    "value": "labops1@siemplifycyarx.onmicrosoft.com",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "id": 19,
+                    "propertyDisplayName": "User Mailbox",
+                    "propertyDescription": "The mailbox to use in the integration.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Refresh Token",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "id": 20,
+                    "propertyDisplayName": "Refresh Token",
+                    "propertyDescription": "The refresh token that is used to authenticate.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "id": 21,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "If selected, the integration verifies that the SSL certificate for the connection to the Microsoft Graph server is valid. Selected by default.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Mail Field Source",
+                    "value": "True",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "id": 22,
+                    "propertyDisplayName": "Mail Field Source",
+                    "propertyDescription": "If selected, the integration retrieves the mailbox address from the user details \"mail\" attribute. If not selected, the integration retrieves the mailbox address from the \"userPrincipalName\" field. Selected by default",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Base64 Encoded Private Key",
+                    "value": "",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": false,
+                    "id": 23,
+                    "propertyDisplayName": "Base64 Encoded Private Key",
+                    "propertyDescription": "Specify a base64 encoded private key that will be used to decrypt the email.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Base64 Encoded Certificate",
+                    "value": "",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": false,
+                    "id": 24,
+                    "propertyDisplayName": "Base64 Encoded Certificate",
+                    "propertyDescription": "Specify a base64 encoded certificate that will be used to decrypt the email.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Base64 Encoded CA certificate",
+                    "value": "",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": false,
+                    "id": 25,
+                    "propertyDisplayName": "Base64 Encoded CA certificate",
+                    "propertyDescription": "Specify a base64 encoded trusted CA certificate for signature verification.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "Redirect URL",
+                    "value": "http://localhost",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 2,
+                    "isMandatory": false,
+                    "id": 26,
+                    "propertyDisplayName": "Redirect URL",
+                    "propertyDescription": "The Redirect URL that you configured when you created your Microsoft Entra ID application.",
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                },
+                {
+                    "propertyName": "AgentIdentifier",
+                    "value": null,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "id": 27,
+                    "propertyDisplayName": "Agent",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "MicrosoftGraphMailDelegated",
+                    "integrationInstance": "ae828bcc-6812-48aa-8d17-a2799105c87f"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "SampleIntegration",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "propertyName": "API Root",
+                    "value": "https://api.vatcomply.com",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "id": 28,
+                    "propertyDisplayName": "API Root",
+                    "propertyDescription": "API Root for the integration. In this case, we are integrating with \"api.vatcomply.com\" service.",
+                    "integrationIdentifier": "SampleIntegration",
+                    "integrationInstance": "708a02ec-999f-4ba8-8e2c-5b2e2d1669f6"
+                },
+                {
+                    "propertyName": "Password Field",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": false,
+                    "id": 29,
+                    "propertyDisplayName": "Password Field",
+                    "propertyDescription": "Example of API password field parameter. API doesn't require authentication, this parameter is just for showcase purpose.",
+                    "integrationIdentifier": "SampleIntegration",
+                    "integrationInstance": "708a02ec-999f-4ba8-8e2c-5b2e2d1669f6"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "id": 30,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "If selected, the integration validates the SSL certificate when connecting to API Service. Selected by default.",
+                    "integrationIdentifier": "SampleIntegration",
+                    "integrationInstance": "708a02ec-999f-4ba8-8e2c-5b2e2d1669f6"
+                },
+                {
+                    "propertyName": "AgentIdentifier",
+                    "value": null,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "id": 31,
+                    "propertyDisplayName": "Agent",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "SampleIntegration",
+                    "integrationInstance": "708a02ec-999f-4ba8-8e2c-5b2e2d1669f6"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "VirusTotalV3",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "propertyName": "API Key",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "id": 32,
+                    "propertyDisplayName": "API Key",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "VirusTotalV3",
+                    "integrationInstance": "34f67b96-0918-4a95-8088-6dc7d5eed877"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "id": 33,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "VirusTotalV3",
+                    "integrationInstance": "34f67b96-0918-4a95-8088-6dc7d5eed877"
+                },
+                {
+                    "propertyName": "AgentIdentifier",
+                    "value": null,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "id": 34,
+                    "propertyDisplayName": "Agent",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "VirusTotalV3",
+                    "integrationInstance": "34f67b96-0918-4a95-8088-6dc7d5eed877"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "G",
+        "integrationIdentifier": "SampleIntegration",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "SampleIntegration_G",
+            "settings": [
+                {
+                    "propertyName": "API Root",
+                    "value": "https://api.vatcomply.com",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "id": 35,
+                    "propertyDisplayName": "API Root",
+                    "propertyDescription": "API Root for the integration. In this case, we are integrating with \"api.vatcomply.com\" service.",
+                    "integrationIdentifier": "SampleIntegration",
+                    "integrationInstance": "d5fff5aa-d1f4-4774-9ad6-06946060c5db"
+                },
+                {
+                    "propertyName": "Password Field",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": false,
+                    "id": 36,
+                    "propertyDisplayName": "Password Field",
+                    "propertyDescription": "Example of API password field parameter. API doesn't require authentication, this parameter is just for showcase purpose.",
+                    "integrationIdentifier": "SampleIntegration",
+                    "integrationInstance": "d5fff5aa-d1f4-4774-9ad6-06946060c5db"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "id": 37,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "If selected, the integration validates the SSL certificate when connecting to API Service. Selected by default.",
+                    "integrationIdentifier": "SampleIntegration",
+                    "integrationInstance": "d5fff5aa-d1f4-4774-9ad6-06946060c5db"
+                },
+                {
+                    "propertyName": "AgentIdentifier",
+                    "value": null,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "id": 38,
+                    "propertyDisplayName": "Agent",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "SampleIntegration",
+                    "integrationInstance": "d5fff5aa-d1f4-4774-9ad6-06946060c5db"
+                }
+            ]
+        }
+    },
+    {
+        "environment": "I",
+        "integrationIdentifier": "VirusTotalV3",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "VirusTotalV3_I",
+            "settings": [
+                {
+                    "propertyName": "API Key",
+                    "value": "***************",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "id": 39,
+                    "propertyDisplayName": "API Key",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "VirusTotalV3",
+                    "integrationInstance": "5f6eb4de-93a0-47b2-85ab-a9cbbf2d24a2"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "id": 40,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "VirusTotalV3",
+                    "integrationInstance": "5f6eb4de-93a0-47b2-85ab-a9cbbf2d24a2"
+                },
+                {
+                    "propertyName": "AgentIdentifier",
+                    "value": null,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "id": 41,
+                    "propertyDisplayName": "Agent",
+                    "propertyDescription": null,
+                    "integrationIdentifier": "VirusTotalV3",
+                    "integrationInstance": "5f6eb4de-93a0-47b2-85ab-a9cbbf2d24a2"
+                }
+            ]
+        }
+    }
+]
