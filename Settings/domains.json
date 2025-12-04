@@ -1,0 +1,35 @@
+[
+    {
+        "alias": null,
+        "id": 1,
+        "domain": "Testing Latest Legacy 1",
+        "environments": [
+            "G",
+            "H",
+            "I"
+        ],
+        "creationTimeUnixTimeInMs": 1764758360368,
+        "modificationTimeUnixTimeInMs": 1764758360368
+    },
+    {
+        "alias": null,
+        "id": 2,
+        "domain": "Testing Latest Legacy 2",
+        "environments": [
+            "Default Environment",
+            "H"
+        ],
+        "creationTimeUnixTimeInMs": 1764758367171,
+        "modificationTimeUnixTimeInMs": 1764758367171
+    },
+    {
+        "alias": null,
+        "id": 3,
+        "domain": "Testing Latest Legacy 3",
+        "environments": [
+            "*"
+        ],
+        "creationTimeUnixTimeInMs": 1764758378725,
+        "modificationTimeUnixTimeInMs": 1764758378725
+    }
+]
