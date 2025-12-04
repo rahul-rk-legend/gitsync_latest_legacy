@@ -1,0 +1,38 @@
+[
+    {
+        "entityIdentifier": "Testing Latest Legacy 1",
+        "category": "Domain",
+        "forDBMigration": false,
+        "environments": [
+            "Default Environment",
+            "G"
+        ],
+        "id": 1,
+        "creationTimeUnixTimeInMs": 1764758395508,
+        "modificationTimeUnixTimeInMs": 1764758395508
+    },
+    {
+        "entityIdentifier": "Testing Latest Legacy 2",
+        "category": "Hostname",
+        "forDBMigration": false,
+        "environments": [
+            "G",
+            "I",
+            "H"
+        ],
+        "id": 2,
+        "creationTimeUnixTimeInMs": 1764758410274,
+        "modificationTimeUnixTimeInMs": 1764758410274
+    },
+    {
+        "entityIdentifier": "Testing Latest Legacy 3",
+        "category": "IP Address",
+        "forDBMigration": false,
+        "environments": [
+            "*"
+        ],
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1764758422510,
+        "modificationTimeUnixTimeInMs": 1764758422510
+    }
+]
