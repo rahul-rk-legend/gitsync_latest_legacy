@@ -1,0 +1,64 @@
+{
+    "cases": [
+        {
+            "creatorUserId": null,
+            "events": [
+                {
+                    "_fields": {
+                        "baseEventIds": [],
+                        "parentEventId": 0,
+                        "deviceEventClassId": "Testing 1P 4",
+                        "startTime": "1765799136537",
+                        "endTime": "1765799136537",
+                        "deviceProduct": "Testing 1P 4"
+                    },
+                    "_rawDataFields": {
+                        "testing 1P 4": "Testing 1P 4",
+                        "deviceEventClassId": "Testing 1P 4",
+                        "deviceProduct": "Testing 1P 4",
+                        "name": "Testing 1P 4"
+                    },
+                    "environment": null,
+                    "sourceSystemName": null,
+                    "extensions": []
+                }
+            ],
+            "environment": null,
+            "sourceSystemName": "Testing 1P 4",
+            "ticketId": null,
+            "description": null,
+            "displayId": null,
+            "reason": null,
+            "name": "Testing 1P 4",
+            "deviceVendor": "Testing 1P 4",
+            "deviceProduct": "Testing 1P 4",
+            "startTime": 1765799136537,
+            "endTime": 1765799136537,
+            "type": 0,
+            "priority": -1,
+            "ruleGenerator": "Testing 1P 4",
+            "sourceGroupingIdentifier": null,
+            "playbookTriggerKeywords": [],
+            "extensions": [
+                {
+                    "key": "Testing 1P 4",
+                    "value": "Testing 1P 4"
+                }
+            ],
+            "attachments": null,
+            "isTrimmed": false,
+            "dataType": 1,
+            "sourceType": 1,
+            "sourceSystemUrl": null,
+            "sourceRuleIdentifier": null,
+            "siemAlertId": null,
+            "updatedFields": [],
+            "alertUpdateSupported": false,
+            "alertMetadata": {},
+            "dataAccessScope": null
+        }
+    ],
+    "type": 0,
+    "connectorIdentifier": null,
+    "debugOutput": null
+}
