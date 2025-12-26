@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "entityIdentifier": "Testing  Latest Legacy 1",
+        "entityType": "POD",
+        "elementType": 0,
+        "scope": 2,
+        "environments": [
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "id": 2,
+        "entityIdentifier": "Testing  Latest Legacy 2",
+        "entityType": "*",
+        "elementType": 0,
+        "scope": 3,
+        "environments": [
+            "*"
+        ]
+    },
+    {
+        "id": 3,
+        "entityIdentifier": "Testing  Latest Legacy 3",
+        "entityType": "CVE",
+        "elementType": 0,
+        "scope": 2,
+        "environments": [
+            "Default Environment",
+            "D",
+            "B"
+        ]
+    }
+]
