@@ -23,8 +23,7 @@
 |Name|Description|
 |----|-----------|
 |Playbook Default 1||
-|Playbook Folder 1||
-|Playbook Folder 2||
+|Playbook  Latest Legacy Folder 1||
 
 
 ## Visual Families
